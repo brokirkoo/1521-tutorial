@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+for file in $(ls -1); do
+    if echo "$file" | grep -qE "\.c$"; then
+        output="$(basename "$file" .c)"
+        echo gcc "$file" -o "$output"
+        gcc "$file" -o "$output"
+    fi
+done
