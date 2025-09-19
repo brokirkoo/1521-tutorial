@@ -5,7 +5,7 @@
 	.type	main,@function
 main:                                   # @main
 .Lfunc_begin0:
-	.file	1 "/root/teaching/comp1521-25t3/t16a/tut01" "example_compilation.c"
+	.file	1 "/root/teaching/comp1521-25t3/t16a/tut01/examples" "example_compilation.c"
 	.loc	1 3 0                           # example_compilation.c:3:0
 	.cfi_startproc
 # %bb.0:                                # %entry
@@ -224,11 +224,11 @@ __unnamed_1:
 .Linfo_string1:
 	.asciz	"example_compilation.c"         # string offset=39
 .Linfo_string2:
-	.asciz	"/root/teaching/comp1521-25t3/t16a/tut01" # string offset=61
+	.asciz	"/root/teaching/comp1521-25t3/t16a/tut01/examples" # string offset=61
 .Linfo_string3:
-	.asciz	"main"                          # string offset=101
+	.asciz	"main"                          # string offset=110
 .Linfo_string4:
-	.asciz	"int"                           # string offset=106
+	.asciz	"int"                           # string offset=115
 	.ident	"Ubuntu clang version 14.0.0-1ubuntu1.1"
 	.section	".note.GNU-stack","",@progbits
 	.addrsig
